@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* Other CSS rules */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Rest of the CSS rules */
+
+.content {
+  flex-grow: 1;
+}
+
+/* Additional styling for header, footer, and other components */

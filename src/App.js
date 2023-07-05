@@ -1,11 +1,29 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './App.css';
 
-export default function App() {
+// Import necessary components
+import Header from './components/Header';
+import Home from './components/Home';
+import ProductList from './components/ProductList';
+import ProductDetail from './components/ProductDetail';
+import Cart from './components/Cart';
+import Checkout from './components/Checkout';
+import Footer from './components/Footer';
+
+function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="app">
+      <Header />
+      <div className="content">
+        <Home />
+        <ProductList />
+        <ProductDetail />
+        <Cart />
+        <Checkout />
+      </div>
+      <Footer />
     </div>
   );
 }
+
+export default App;
